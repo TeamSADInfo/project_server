@@ -1,0 +1,23 @@
+{
+	"name": "project_server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"engines": {
+		"node": "16.0.0",
+		"npm": "8.0.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"author": "Dmitry",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.2",
+		"nodemon": "^2.0.15",
+		"passport": "^0.5.2",
+		"passport-google-oauth20": "^2.0.0"
+	}
+}
